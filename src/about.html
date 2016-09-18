@@ -1,0 +1,10 @@
+<template>
+    <h1>About</h1>
+    <hr>
+    <p class="lead">${aboutMessage}</p>
+    <hr>
+    <h2>Our Team</h2>
+    <div repeat.for="profile of profiles">
+        <compose model.bind="profile" view-model="profile"></compose>
+    </div>
+</template>
