@@ -1,6 +1,5 @@
-export class Home {
+export class Shell {
     constructor() {
         this.helloMessage = 'Hello Aurelia!';
-        this.input = '';
     }
 }
